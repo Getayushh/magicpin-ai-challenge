@@ -1,0 +1,13 @@
+name: Keep Render bot awake
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping healthz
+        run: curl -sf https://magicpin-ai-challenge-ww7s.onrender.com/v1/healthz || echo "ping failed, bot may be cold-starting"
