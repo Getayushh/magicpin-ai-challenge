@@ -1,0 +1,29 @@
+{
+  "slug": "pharmacies",
+  "offer_catalog": [
+    { "id": "pha_001", "title": "Free Home Delivery > \u20b9499", "value": "499", "audience": "existing_user", "type": "service_at_price" },
+    { "id": "pha_002", "title": "Senior Citizen 15% OFF", "value": "0.15", "audience": "existing_user", "type": "service_at_price" }
+  ],
+  "voice": {
+    "tone": "trustworthy_precise",
+    "vocab_allowed": ["molecule", "batch number", "sub-potency", "chronic Rx", "refill"],
+    "vocab_taboo": ["miracle cure", "guaranteed", "instant relief"]
+  },
+  "peer_stats": { "avg_rating": 4.4, "avg_reviews": 95, "avg_ctr": 0.041, "scope": "metro_neighborhood_pharmacies" },
+  "digest": [
+    {
+      "id": "d_2026W17_summer_demand_shift", "kind": "trend",
+      "title": "Summer 2026 shelf demand shift: ORS +40%, sunscreen +38%, antifungal +45%, cold/cough -60%",
+      "source": "magicpin category trends, Apr 2026",
+      "summary": "Seasonal demand tracking across metro pharmacies shows a sharp summer shift toward ORS, sunscreen and antifungal products, with cold/cough demand dropping."
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Apr-Jun", "note": "heat-related product demand (ORS, sunscreen) peaks" },
+    { "month_range": "Jul-Sep", "note": "monsoon antifungal + digestive demand peaks" }
+  ],
+  "trend_signals": [
+    { "query": "home delivery medicine", "delta_yoy": 0.34, "segment_age": "all" }
+  ]
+}

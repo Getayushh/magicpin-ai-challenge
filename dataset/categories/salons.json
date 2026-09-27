@@ -1,0 +1,33 @@
+{
+  "slug": "salons",
+  "offer_catalog": [
+    { "id": "sal_001", "title": "Haircut @ \u20b999", "value": "99", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_002", "title": "Hair Spa @ \u20b9499", "value": "499", "audience": "existing_user", "type": "service_at_price" },
+    { "id": "sal_003", "title": "Bridal Trial @ \u20b9999", "value": "999", "audience": "new_user", "type": "service_at_price" }
+  ],
+  "voice": {
+    "tone": "warm_practical",
+    "vocab_allowed": ["balayage", "keratin treatment", "hair spa", "touch-up", "stylist"],
+    "vocab_taboo": ["cheap", "flat off", "clearance"]
+  },
+  "peer_stats": { "avg_rating": 4.5, "avg_reviews": 180, "avg_ctr": 0.045, "scope": "metro_family_salons" },
+  "digest": [
+    {
+      "id": "d_2026W17_salon_trend_balayage", "kind": "trend",
+      "title": "Balayage search volume up sharply in metro locality searches",
+      "source": "magicpin category trends, Apr 2026",
+      "summary": "Balayage and hair-color-correction related searches trending up in metro localities this month."
+    }
+  ],
+  "patient_content_library": [
+    { "id": "pc_101", "title": "How often should you really get a hair spa?", "channel": "whatsapp",
+      "body": "Most stylists recommend a hair spa every 4-6 weeks for chemically treated hair." }
+  ],
+  "seasonal_beats": [
+    { "month_range": "Oct-Dec", "note": "wedding + festival bridal-package peak" },
+    { "month_range": "Apr-Jun", "note": "summer haircut + spa uptick" }
+  ],
+  "trend_signals": [
+    { "query": "bridal makeup trial", "delta_yoy": 0.28, "segment_age": "22-32" }
+  ]
+}

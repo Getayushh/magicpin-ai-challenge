@@ -1,0 +1,46 @@
+{
+  "slug": "dentists",
+  "offer_catalog": [
+    { "id": "den_001", "title": "Dental Cleaning @ \u20b9299", "value": "299", "audience": "new_user", "type": "service_at_price" },
+    { "id": "den_002", "title": "Free Consultation", "value": "0", "audience": "new_user", "type": "service_at_price" },
+    { "id": "den_003", "title": "Teeth Whitening @ \u20b91,499", "value": "1499", "audience": "existing_user", "type": "service_at_price" },
+    { "id": "den_004", "title": "Deep Cleaning @ \u20b9499", "value": "499", "audience": "existing_user", "type": "service_at_price" }
+  ],
+  "voice": {
+    "tone": "peer_clinical",
+    "vocab_allowed": ["fluoride varnish", "caries", "recall", "scaling", "high-risk adult", "3-month recall", "bruxism"],
+    "vocab_taboo": ["cure", "guaranteed", "100% safe", "painless", "miracle"]
+  },
+  "peer_stats": { "avg_rating": 4.4, "avg_reviews": 62, "avg_ctr": 0.030, "scope": "delhi_solo_practices" },
+  "digest": [
+    {
+      "id": "d_2026W17_jida_fluoride", "kind": "research",
+      "title": "3-month fluoride recall cuts caries recurrence 38% better than 6-month",
+      "source": "JIDA Oct 2026, p.14", "trial_n": 2100, "patient_segment": "high_risk_adults",
+      "summary": "2,100-patient trial: high-risk adult patients on a 3-month fluoride varnish recall showed 38% lower caries recurrence than those on the standard 6-month recall."
+    },
+    {
+      "id": "d_2026W17_dci_radiograph", "kind": "regulation",
+      "title": "DCI radiograph dose limit revised",
+      "source": "DCI Circular, Apr 2026", "deadline_iso": "2026-12-15",
+      "summary": "Dental Council of India revised permissible radiograph dose limits for intraoral units; compliance deadline 15 Dec 2026."
+    },
+    {
+      "id": "d_2026W17_ida_webinar", "kind": "cde",
+      "title": "IDA Delhi CDE webinar: clear aligner case selection",
+      "source": "IDA Delhi Calendar", "credits": 2, "fee": "free_for_members",
+      "summary": "Free 2-credit CDE webinar on clear aligner case selection criteria, hosted by IDA Delhi."
+    }
+  ],
+  "patient_content_library": [
+    { "id": "pc_001", "title": "3 things your teeth tell you about your heart", "channel": "whatsapp",
+      "body": "Gum health and cardiovascular health are linked. Ask your dentist about it at your next cleaning." }
+  ],
+  "seasonal_beats": [
+    { "month_range": "Nov-Feb", "note": "exam-stress bruxism spike" },
+    { "month_range": "Oct-Dec", "note": "wedding whitening peak" }
+  ],
+  "trend_signals": [
+    { "query": "clear aligners delhi", "delta_yoy": 0.62, "segment_age": "28-45" }
+  ]
+}

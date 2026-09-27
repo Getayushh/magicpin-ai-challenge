@@ -1,0 +1,30 @@
+{
+  "slug": "gyms",
+  "offer_catalog": [
+    { "id": "gym_001", "title": "First Month @ \u20b9499", "value": "499", "audience": "new_user", "type": "service_at_price" },
+    { "id": "gym_002", "title": "3 FREE Trial Classes", "value": "0", "audience": "new_user", "type": "service_at_price" },
+    { "id": "gym_003", "title": "Free Body Composition Analysis", "value": "0", "audience": "new_user", "type": "service_at_price" }
+  ],
+  "voice": {
+    "tone": "coach_motivational",
+    "vocab_allowed": ["conversion", "ad spend", "retention", "trial-to-paid", "HIIT"],
+    "vocab_taboo": ["guaranteed results", "shame", "lazy"]
+  },
+  "peer_stats": { "avg_rating": 4.3, "avg_reviews": 140, "avg_ctr": 0.052, "scope": "metro_gyms_and_studios" },
+  "digest": [
+    {
+      "id": "d_2026W17_gym_seasonal_dip", "kind": "trend",
+      "title": "Metro gyms typically see -25% to -35% new-member acquisition Apr-Jun (post-resolution lull)",
+      "source": "magicpin category trends, Apr 2026",
+      "summary": "Every metro gym in the dataset sees an acquisition lull in the April-June window as New Year resolution sign-ups taper off; conversion typically recovers 2x by Sept-Oct."
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Jan-Feb", "note": "New Year resolution sign-up peak" },
+    { "month_range": "Apr-Jun", "note": "acquisition lull, retention focus recommended" }
+  ],
+  "trend_signals": [
+    { "query": "HIIT classes near me", "delta_yoy": 0.22, "segment_age": "25-40" }
+  ]
+}

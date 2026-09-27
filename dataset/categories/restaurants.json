@@ -1,0 +1,29 @@
+{
+  "slug": "restaurants",
+  "offer_catalog": [
+    { "id": "res_001", "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)", "value": "bogo", "audience": "existing_user", "type": "service_at_price" },
+    { "id": "res_002", "title": "Weekday Lunch Thali @ \u20b9149", "value": "149", "audience": "new_user", "type": "service_at_price" }
+  ],
+  "voice": {
+    "tone": "operator_to_operator",
+    "vocab_allowed": ["covers", "AOV", "delivery share", "footfall", "dine-in"],
+    "vocab_taboo": ["amazing deal", "unbeatable"]
+  },
+  "peer_stats": { "avg_rating": 4.2, "avg_reviews": 310, "avg_ctr": 0.032, "scope": "metro_qsr_and_casual_dining" },
+  "digest": [
+    {
+      "id": "d_2026W17_ipl_covers_data", "kind": "trend",
+      "title": "Saturday IPL matches historically shift dine-in covers -12% (people watch at home)",
+      "source": "magicpin category trends, Apr 2026",
+      "summary": "Historical data across metro restaurants shows Saturday IPL match nights see roughly 12% lower dine-in covers than a typical Saturday, as more people order in to watch at home."
+    }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Mar-May", "note": "IPL season shifts dine-in to delivery on match nights" },
+    { "month_range": "Oct-Dec", "note": "festival catering + bulk order season" }
+  ],
+  "trend_signals": [
+    { "query": "biryani delivery near me", "delta_yoy": 0.18, "segment_age": "all" }
+  ]
+}
