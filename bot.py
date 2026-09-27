@@ -618,8 +618,10 @@ HOSTILE_PATTERNS = [
     r"\bfuck", r"\bstupid\b", r"waste of (my )?time",
 ]
 INTENT_COMMIT_PATTERNS = [
-    r"let'?s do it", r"go ahead", r"\byes\b.*\b(join|do it|proceed|confirm)\b",
-    r"^\s*(ok|okay)\b.*\b(do it|proceed|go ahead)\b", r"\bconfirm\b", r"sounds good",
+    r"let'?s do it", r"go ahead",
+    r"\byes\b.*\b(join|do it|proceed|confirm|send|share|start|set\s*up)\b",
+    r"^\s*(ok|okay|sure|yep|yeah)\b.*\b(do it|proceed|go ahead|send|share|start|set\s*up|confirm)\b",
+    r"\bconfirm\b", r"sounds good",
     r"i want to join", r"ready to start", r"let'?s start",
 ]
 NOT_INTERESTED_PATTERNS = [
