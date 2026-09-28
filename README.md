@@ -1,4 +1,4 @@
-# Vera-challenge bot — Og
+# Vera-challenge bot — AYUSH GUPTA
 
 ## Approach
 
